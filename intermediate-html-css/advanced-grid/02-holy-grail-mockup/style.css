@@ -28,10 +28,12 @@
 
 .header .logo {
   grid-template-columns: 2/3;
+  justify-self: start;
 }
 .menu ul{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  align-self: center;
 }
 
 .menu ul,
@@ -55,6 +57,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+  align-content: center;
 }
 
 
@@ -63,6 +67,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  align-content: center;
     
 }
 
